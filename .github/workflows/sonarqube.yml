@@ -31,4 +31,7 @@ jobs:
           args: >
             -Dsonar.projectKey=TEST
             -Dsonar.sources=src/main/resources
+            -Dhttp.protocol=TLSv1.2
+            -Dsun.net.http.allowRestrictedHeaders=connection
+            -Djdk.httpclient.connectionPoolSize=1
             -Dsonar.verbose=true
