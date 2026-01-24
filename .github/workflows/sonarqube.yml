@@ -23,27 +23,12 @@ jobs:
       - name: Analyze with SonarQube
         uses: SonarSource/sonarqube-scan-action@master
         env:
-          # ---------------------------------------------------------
-          # PASTE YOUR VALUES HERE BETWEEN THE QUOTES BELOW
-          # ---------------------------------------------------------
-          
-          # 1. Your GitHub Token (Standard: ghp_xxxxxxxxxxxx)
           GITHUB_TOKEN: "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"
-          
-          # 2. Your SonarQube User Token (Standard: sqp_xxxxxxxxxxxx)
           SONAR_TOKEN: "sqp_aa5210a7a86bd73fed62fcce7e7e9678874cd721"
-          
-          # 3. Your SonarQube URL (e.g., http://localhost:9000 or https://sonarcloud.io)
           SONAR_HOST_URL: "https://0b6dd7580fed417c-197-153-106-8.serveousercontent.com"
-          
-          # This fixes the download error from the previous log
           SONAR_USER_HOME: /opt/sonar-scanner/.sonar
-          
         with:
           args: >
-            # 4. Your Project Key from SonarQube Dashboard (e.g., "my-project-test")
-            -Dsonar.projectKey="TEST"
-            
-            
-            # Enable verbose logging to debug issues
+            -Dsonar.projectKey=TEST
+            -Dsonar.sources=src/main/resources
             -Dsonar.verbose=true
