@@ -54,7 +54,7 @@
       <bpmn:outgoing>SequenceFlow_0buzwss</bpmn:outgoing>
     </bpmn:inclusiveGateway>
     <bpmn:startEvent id="StartEvent_1" name="Ship goods">
-      <bpmn:outgoing>SequenceFlow_14a0oky</bpmn:outgoing>
+      <bpmn:outgoing>dqdqqd</bpmn:outgoing>
     </bpmn:startEvent>
     <bpmn:parallelGateway id="ParallelGateway_02fgrfq">
       <bpmn:incoming>SequenceFlow_14a0oky</bpmn:incoming>
