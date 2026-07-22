@@ -7,13 +7,6 @@
     <bpmn:laneSet>
       <bpmn:lane id="Lane_1vl2igx" name="Warehouse">
         <bpmn:flowNodeRef>Task_05ftug5</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>ExclusiveGateway_0z5sib0</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>Task_0sl26uo</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>EndEvent_1fx9yp3</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>Activity_0w2t8kk</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>Gateway_057hfxd</bpmn:flowNodeRef>dsqdsqdqs
-        <bpmn:flowNodeRef>Event_042k091</bpmn:flowNodeRef>
-        <bpmn:flowNodeRef>Activity_0f9vi9s</bpmn:flowNodeRef>
       </bpmn:lane>
       <bpmn:lane id="Lane_1ocseyo" name="Secretary">
         <bpmn:flowNodeRef>InclusiveGateway_0p2e5vq</bpmn:flowNodeRef>
